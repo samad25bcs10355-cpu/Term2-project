@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Countdown Timer</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Countdown Timer</h2>
+
+        <input id="secondsInput" type="number" placeholder="Enter seconds..." />
+
+        <button onclick="startTimer()">Start</button>
+
+        <div id="time">00</div>
+    </div>
+
+    
+    <audio id="tickSound">
+        <source src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg">
+    </audio>
+
+    
+    <audio id="endSound">
+        <source src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg">
+    </audio>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
